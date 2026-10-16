@@ -1,0 +1,21 @@
+name: notesmith
+description: AI-powered formatter that turns raw notes in a GitHub-hosted Obsidian vault into polished Markdown.
+version: 1.0.0
+
+
+environment:
+  sdk: ^3.13.4
+
+# Add regular dependencies here.
+dependencies:
+  dart_console: ^1.2.0
+  dotenv: ^4.2.0
+  http: ^1.6.0
+  interact: ^2.2.0
+  openrouter_sdk: ^0.0.8
+  path: ^1.9.0
+  uuid: ^4.6.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
